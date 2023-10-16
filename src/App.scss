@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ed254e;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #550717;
+}
+
+html {
+    background-color: antiquewhite;
+    scroll-behavior: smooth;
+}
+
+// ed254e
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #52489c;
+}
+
+::selection {
+    color: white;
+    background: #52489c;
+}
+
+// https://www.magicpattern.design/tools/css-backgrounds
+.App {
+    background-color: #ffc57a;
+    opacity: 1;
+    background-image: linear-gradient(
+            30deg,
+            #ffb85c 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #ffb85c 87.5%,
+            #ffb85c
+        ),
+        linear-gradient(
+            150deg,
+            #ffb85c 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #ffb85c 87.5%,
+            #ffb85c
+        ),
+        linear-gradient(
+            30deg,
+            #ffb85c 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #ffb85c 87.5%,
+            #ffb85c
+        ),
+        linear-gradient(
+            150deg,
+            #ffb85c 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #ffb85c 87.5%,
+            #ffb85c
+        ),
+        linear-gradient(
+            60deg,
+            #ffb85c77 25%,
+            transparent 25.5%,
+            transparent 75%,
+            #ffb85c77 75%,
+            #ffb85c77
+        ),
+        linear-gradient(
+            60deg,
+            #ffb85c77 25%,
+            transparent 25.5%,
+            transparent 75%,
+            #ffb85c77 75%,
+            #ffb85c77
+        );
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}

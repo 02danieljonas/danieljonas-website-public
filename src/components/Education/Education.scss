@@ -1,0 +1,30 @@
+.education {
+    .swiper {
+        width: 100%;
+        height: 100%;
+        .swiper-slide {
+            width: 80vw;
+        }
+        .swiperBox {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            border-radius: 20px;
+
+            overflow: hidden;
+
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
